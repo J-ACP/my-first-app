@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+body{
+    background-color: #373a40;
+}
+
+#app{
+    font-size:2rem;
+    color:#cd5d7d;
+
+}
+
+#app main{
+    margin: 15%;
+    width: 70%;
+    max-width: 80%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#app main div{
+    margin: 2%;
+    padding:1%;
+    background-color:#eeeeee;
+    border-radius: 1rem;
+    width: 48%;
+    max-width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#app main div h3{
+    color:#686d76
+}
+
+#app main div h1{
+    color:#373a40
+}
+
+#app main div div{
+        margin: 0 5%;
+        padding: 5%;
+        width: 100%;
+        max-width: 100%;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+    
+    }
+
+
+    #app main div div button{
+        border:solid 2px #058286;
+        color:#058286;
+        border-radius:1rem;
+        font-size: 1rem;
+        font-weight: 700;
+        margin: .5rem;
+        padding: .5rem;
+    }
+    
+
+@media only screen and (min-width: 300px) and (max-width: 320px){
+    #app main{
+        margin: 5%;
+        width: 90%;
+        max-width: 90%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+
+    #app main div{
+        margin: 8% 2%;
+        padding:1%;
+        width: 96%;
+        max-width: 96%;
+    }
+
+    #app main div div{
+        max-width: 90%;
+    }
+
+    
+}
+
+
+@media only screen and (min-width: 500px) and (max-width: 570px){
+
+    #app main{
+        margin: 5%;
+        width: 90%;
+        max-width: 90%;
+        
+    
+    }
+
+    #app main div div{
+        max-width: 100%;
+    }
+
+    #app main div div button{
+        
+        font-size: .8rem;
+        font-weight: 400;
+        margin: .2rem;
+        padding: .5rem;
+    }
+}
