@@ -12,7 +12,6 @@ body{
 
 #app{
     font-size:2rem;
-    color:#cd5d7d;
 
 }
 
@@ -59,6 +58,7 @@ body{
 
 
     #app main div div button{
+        outline-color:rgba(0,0,0,0);
         border:solid 2px #058286;
         color:#058286;
         border-radius:1rem;
